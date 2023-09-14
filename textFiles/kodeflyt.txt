@@ -1,0 +1,21 @@
+def print_prosa():
+	print("Melding til alle gaardeiere:")
+	print("Antall dyr paa gaarden: ")
+
+antall_dyr = 4
+print_prosa()
+print(antall_dyr)
+antall_nye_dyr = int(input("Hvor mange nye dyr kommer til gaarden: "))
+antall_dyr = antall_dyr + antall_nye_dyr
+print_prosa()
+print(antall_dyr)
+
+if antall_dyr > 12:
+	print("Det er mer enn ett dusin dyr paa gaarden!")
+elif antall_dyr == 12:
+	print("Det er ett dusin dyr paa gaarden!")
+else:
+	print("Det er mindre enn ett dusin dyr paa gaarden!")
+
+
+Her har vi en prosedyre "print_prosa()". Vi definerte antall_dyr string. På linje 6 kaller vi prosedyren og så programmet går til linje 1 og på linje2  skriver det ut "Melding til alle gaardeiere:" og går til linje 3 der skriver det ut "Antall dyr paa gaarden: ". Da er vi ferdig med prosedyre og programmet går til linje 7 og der skriver det ut 4 som antall dyr. Etterpå går det til linje 8 og ber det om nye dyr fra brukeren og endrer verdien string til integer med ny variabel antall_nye_dyr.Vi får 8 fra brukeren. Også går det til Linje 9 og legger antall_nye_dyr til antall_dyr. Da blir antall_dyr 12. Programmet forsetter med linje 10 og kaller prosedyre igjen og går til linje 1,2,3, der skriver ut bare "Melding til alle gaardeiere:" og "Antall dyr paa gaarden: ". Også går det til linje 11 og skriver ut 12 som antall_dyr. Etterpå forsetter det med linje 13 om antall_dyr er større en 12 som ikke er riktig. Så programmet hopper linje 14 og går til linje 15, så sjekker den ut om antall_dyr er lik 12 som er riktig. Der programmet skriver ut "Det er ett dusin dyr paa gaarden!". Også programmet blir ferdig med if-setninger og går ut av betingelser

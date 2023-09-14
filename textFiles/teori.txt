@@ -1,0 +1,24 @@
+1.Hva er innkapsling ? Hvorfor er det nyttig ?
+
+-Innkapsling er at man kan ha tilgang til klassens
+variabler og funksjoner om man oppretter en objekt
+fra den klassen. Ellers kan vi ikke ha tilgang til variabler
+og metoder.
+Dette forhindrer data modifisering derfor er det nyttig.
+
+
+2.Hva er grensesnittet til en klasse?
+ Hvordan skiller det seg fra implementasjonen av
+en klasse?
+
+-Grensesnittet til en klasse er klassens metoder,
+og avgjøres av objektets klass.
+
+-implementasjonen av en klasse består av instansvariabler og metoder som opererer på
+instansvariabler. Man kan endre og lese variablene gjennom et objekt fra klassens
+
+3.Hva er en instansmetode (ofte kalt bare metode), og hvordan skiller metoder seg fra
+prosedyrene/funksjonene vi har jobbet med hittil?
+
+-instansmetode er en metode som tilhører en klasse og kan aksesserer gjennom objekt fra klasse.
+-Vi jobbet med enkelte prosedyrene/funksjonene som tar parameter og returnerer og ikke tilhører en klasse.

@@ -1,0 +1,13 @@
+1b) Hvis vi hadde filnavn inne i konstruktøren, hadde vi opprettet en parameter
+hver gang vi brukte et objekt fra spilleliste.Og vi trenger bare en gang å lage en liste
+fra musikk.txt, så er vi ferdig med musikk listen. Å bruke les_fil metoden er jo nyttigere
+enn å ha en parameter inne i konstruktøren. Vi trenger ikke sende argumenten musikk fil hver gang gjennom
+opprettelsen av et objekt fra spillelisten
+
+
+1c) - Det er lettere å aksessere elementer gjennom listen enn ordbok.
+
+- Det er lettere å endre eller manipulere elementer fra liste enn ordbok
+
+1d) Man må bytte index nummere til biter i listen.Slik som
+<self._sanger.append(Sang(biter[1],biter[0]))> eller self._sanger.append(Sang(biter[0],biter[1]))

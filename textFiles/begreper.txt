@@ -1,0 +1,7 @@
+A. Klassedefinisjon Linje 1-16
+B. Opprettelse av nytt objekt Linje 19-20
+C. Definisjon av instansvariabel : Linje 3-4-5
+D. Definisjon av instansmetode : Linje 7,Linje 11,Linje 15
+E. Definisjon av konstruktør: Linje 2
+F. Kall på instansmetode :Linje 21,22,25,26,27,28,31,32,33,34
+G. Argumenter : Linje 19,20,25,26,31,32 

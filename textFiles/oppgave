@@ -1,0 +1,41 @@
+
+START   INP 
+        BRZ SLUTT  //if it is zero 
+        ADD A
+        STA A
+        BRP START 
+SLUTT   LDA A
+        OUT
+        HLT
+A       DAT 0
+
+
+
+
+
+counter variable olustur  
+
+
+division
+
+        INP M
+        STA M
+        INP N
+        STA N
+LOOP    LDA M
+        BRZ END         //check if it is zero and then go END
+        SUB N           // mden n yi cikar
+        STA M           // yeni m yi kaydet
+        LDA ANS         // 0(ans) i akumulatore koy
+        ADD ONE         // ans- 0 a 1 ekle        
+        STA ANS         // ans yi kaydet ram e
+        BRA LOOP        // loop a git line 25
+END     LDA ANS         // ans yi akumulatore yukle 
+        OUT             // output 
+        SUB ANS         
+        STA ANS
+        HLT
+M       DAT
+N       DAT
+ANS     DAT 0
+ONE     DAT 1
