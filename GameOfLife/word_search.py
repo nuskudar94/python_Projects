@@ -15,8 +15,7 @@ def word_search(doc_list, keyword):
     return indices
 
 
-    # mine was 
-    def word_search(doc_list, keyword):
+         
     """
     Takes a list of documents (each document is a string) and a keyword. 
     Returns list of the index values into the original list for all documents 
@@ -24,12 +23,13 @@ def word_search(doc_list, keyword):
 
     Example:
     doc_list = ["The Learn Python Challenge Casino.", "They bought a car", "Casinoville"]
-    >>> word_search(doc_list, 'casino')
-    >>> [0]
-    """
-    for i in range(len(doc_list)):
-        words=doc_list[i].lower().split()
-        for word in words:
-            if word == keyword:
+     word_search(doc_list, 'casino')
+     [0]
+    """ 
+    def word_search(doc_list, keyword):
+        for i in range(len(doc_list)):
+            words=doc_list[i].lower().split()
+            for word in words:
+                if word == keyword:
                 
-                return i
+                    return i
